@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tonehouse - Electric, Acoustic and Bass Guitars</title>
+</head>
+<body style="background-color: bisque;">
+    <div style="text-align: center;">
+  <header id="top">
+    <h1><img src="Musico.png" width="50px" height="50px">Musicart</h1>
+
+    <form action="#" method="get">
+      <input type="search" name="q" placeholder="Search guitars">
+      <button type="submit">Search</button>
+    </form>
+
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#electric">Electric</a> |
+      <a href="#acoustic">Acoustic</a> |
+      <a href="#bass">Bass</a> |
+      <a href="#cart">Cart (2)</a> |
+      <a href="#checkout">Checkout</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home">
+      <h2>Find Your Tone</h2>
+      <p>Electric, acoustic and bass guitars for every player, from first strings to the big stage. Free setup on every guitar.</p>
+      <a href="#electric"><button type="button">Shop Guitars</button></a>
+      <hr>
+    </section>
+
+    <!-- ===== ELECTRIC ===== -->
+    <section id="electric">
+      <h2>Electric</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>Strat-Style Electric</h3>
+            <p>Alder body, maple neck, 3 single-coil pickups.</p>
+            <p><strong>₱32,500</strong></p>
+            <label for="finish-strat">Finish:</label>
+            <select id="finish-strat" name="finish-strat">
+              <option>Sunburst</option>
+              <option>Black</option>
+              <option>Olympic White</option>
+              <option>Candy Apple Red</option>
+            </select>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Single-Cut Electric</h3>
+            <p>Mahogany body, humbucker pickups, warm sustain.</p>
+            <p><strong>₱45,990</strong></p>
+            <label for="finish-sc">Finish:</label>
+            <select id="finish-sc" name="finish-sc">
+              <option>Cherry Red</option>
+              <option>Honeyburst</option>
+              <option>Ebony</option>
+              <option>Silver</option>
+            </select>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Offset Electric</h3>
+            <p>Lightweight body, tremolo bridge, bright tone.</p>
+            <p><strong>₱28,750</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+
+      <h3>Featured Photos</h3>
+
+        <table cellpadding="5" cellspacing="0">
+            <tr>
+                <td>
+                    <figure>
+                        <img src="Strat_style.png" width="300" height="480"
+                             alt="Strat style" width="250" height="170">
+                        <figcaption>
+                            <strong>Jimi Hendrix Monterey Pop Strat</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="Lespaul.png" width="150" height="480"
+                             alt="LP" width="250" height="170">
+                        <figcaption>
+                            <strong>Gibson Les Paul Alpine White(2016)</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="EVH.png" width="200" height="480"
+                             alt="Frankenstrat" width="250" height="170">
+                        <figcaption>
+                            <strong>Eddie Van Halen Frankenstrat</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </section>
+</div>
+    <hr>
+
+    <section id="acoustic">
+      <h2>Acoustic</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>Dreadnought Acoustic</h3>
+            <p>Spruce top, mahogany back and sides, full sound.</p>
+            <p><strong>₱18,900</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Concert Acoustic-Electric</h3>
+            <p>Cutaway body with built-in preamp and tuner.</p>
+            <p><strong>₱24,500</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Travel Acoustic</h3>
+            <p>Compact, lightweight and includes a gig bag.</p>
+            <p><strong>₱12,250</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </section>
+
+
+    <section id="bass">
+      <h2>Bass</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>4-String Bass</h3>
+            <p>Precision-style body with a punchy low end.</p>
+            <p><strong>₱26,800</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>5-String Bass</h3>
+            <p>Extra low B string, active electronics.</p>
+            <p><strong>₱38,400</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Short-Scale Bass</h3>
+            <p>Easy to play, great for younger players.</p>
+            <p><strong>₱15,600</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Strat-Style Electric (Sunburst)</td>
+            <td>₱32,500</td>
+            <td><input type="number" name="qty1" min="1" max="20" value="1"></td>
+            <td>₱32,500</td>
+            <td><button type="button">X</button></td>
+          </tr>
+          <tr>
+            <td>Dreadnought Acoustic</td>
+            <td>₱18,900</td>
+            <td><input type="number" name="qty2" min="1" max="20" value="1"></td>
+            <td>₱18,900</td>
+            <td><button type="button">X</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="3">Total</th>
+            <th colspan="2">₱51,400</th>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+      <hr>
+    </section>
+
+    <!-- ===== CHECKOUT ===== -->
+    <section id="checkout">
+      <h2>Checkout</h2>
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Shipping Details</legend>
+
+          <p>
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+          </p>
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </p>
+          <p>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="0917 123 4567">
+          </p>
+          <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+          </p>
+          <p>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" list="cities">
+            <datalist id="cities">
+              <option value="Baguio City">
+              <option value="Quezon City">
+              <option value="Makati">
+              <option value="Cebu City">
+              <option value="Davao City">
+            </datalist>
+          </p>
+          <p>
+            <label for="delivery-date">Delivery date:</label><br>
+            <input type="date" id="delivery-date" name="delivery-date">
+          </p>
+          <p>
+            <label for="delivery-option">Delivery option:</label><br>
+            <select id="delivery-option" name="delivery-option">
+              <option value="standard">Standard</option>
+              <option value="express">Express</option>
+              <option value="pickup">Store Pick-up</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Method</legend>
+          <p>
+            <input type="radio" id="pay-card" name="payment" value="card" checked>
+            <label for="pay-card">Credit / Debit Card</label>
+          </p>
+          <p>
+            <input type="radio" id="pay-cod" name="payment" value="cod">
+            <label for="pay-cod">Cash on Delivery</label>
+          </p>
+          <p>
+            <input type="radio" id="pay-ewallet" name="payment" value="ewallet">
+            <label for="pay-ewallet">E-Wallet</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="gift" name="extras" value="gift-wrap">
+          <label for="gift">Gift wrap</label>
+          <input type="checkbox" id="receipt" name="extras" value="receipt">
+          <label for="receipt">Include receipt</label>
+        </p>
+        <p>
+          <input type="checkbox" id="terms" name="terms" value="agreed" required>
+          <label for="terms">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+        </p>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear</button>
+      </form>
+      <hr>
+    </section>
+
+    <section id="contact">
+      <h2>Visit Our Store</h2>
+      <iframe
+        title="Musicart location map"
+        width="600"
+        height="400"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=120.585%2C16.395%2C120.607%2C16.409&amp;layer=mapnik&amp;marker=16.4023%2C120.5960">
+      </iframe>
+      <br>
+      <small>
+        <a href="https://www.openstreetmap.org/?mlat=16.4023&amp;mlon=120.5960#map=16/16.4023/120.5960" target="_blank" rel="noopener">View larger map</a>
+      </small>
+
+      <h3>Reach Us</h3>
+      <address>
+        <strong>Musicart Guitars</strong><br>
+        Block 6 Lot 7 Wagner hills Subdivision, Military Cut-off<br>
+        Baguio City, Philippines<br>
+        Phone: <a href="tel:+639171234567">+63 9977797505</a><br>
+        Email: <a href="mailto:Musicart@gmail.com">Musicart@gmail.com</a>
+      </address>
+
+      <h3>Leave a Review</h3>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="rev-name">Name:</label><br>
+          <input type="text" id="rev-name" name="rev-name" required>
+        </p>
+        <p>
+          <label for="rating">Rating (1-5):</label><br>
+          <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+        </p>
+        <p>
+          <label for="rev-text">Review:</label><br>
+          <textarea id="rev-text" name="rev-text" rows="4" cols="40" required></textarea>
+        </p>
+        <p>
+          <label for="rev-photo">Photo (optional):</label><br>
+          <input type="file" id="rev-photo" name="rev-photo" accept="image/*">
+        </p>
+        <button type="submit">Submit Review</button>
+      </form>
+      <hr>
+    </section>
+
+     <section id="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+        <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Tonehouse on Facebook</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+      <hr>
+    </section>
+
+
+    <section id="terms-info">
+      <h2>Terms &amp; Conditions</h2>
+      <details>
+        <summary>Read the terms</summary>
+        <ol>
+          <li>Returns: unused guitars may be returned within 7 days with the original receipt and packaging.</li>
+          <li>Delivery: standard delivery takes 3 to 7 business days; express takes 1 to 2 business days.</li>
+          <li>Payment: orders are processed once payment is confirmed. Cash on Delivery is available in selected areas.</li>
+        </ol>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>
+      <a href="#about">About Us</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#shipping">Shipping Policy</a> |
+      <a href="#returns">Returns</a>
+    </p>
+    <p>&copy; 2026 Musicart - Aquino. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
